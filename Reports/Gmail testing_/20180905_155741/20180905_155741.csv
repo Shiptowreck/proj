@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Gmail testing_,Firefox 61.0,,2018-09-05 15:58:24,2018-09-05 15:59:01,"37,805s",INCOMPLETE
+,,,,,,
+Test Cases/Open message,Firefox 61.0,,2018-09-05 15:58:24,2018-09-05 15:59:01,"37,393s",FAILED
+openBrowser,Firefox 61.0,,2018-09-05 15:58:24,2018-09-05 15:58:31,"6,848s",PASSED
+navigateToUrl,Firefox 61.0,,2018-09-05 15:58:31,2018-09-05 15:58:33,"1,778s",PASSED
+setText,Firefox 61.0,,2018-09-05 15:58:33,2018-09-05 15:58:33,"0,402s",PASSED
+click,Firefox 61.0,,2018-09-05 15:58:33,2018-09-05 15:58:34,"0,307s",PASSED
+waitForElementClickable,Firefox 61.0,,2018-09-05 15:58:34,2018-09-05 15:58:34,"0,319s",PASSED
+mouseOver,Firefox 61.0,,2018-09-05 15:58:34,2018-09-05 15:58:34,"0,255s",PASSED
+setText,Firefox 61.0,,2018-09-05 15:58:34,2018-09-05 15:58:34,"0,152s",PASSED
+sendKeys,Firefox 61.0,,2018-09-05 15:58:34,2018-09-05 15:58:35,"0,174s",PASSED
+waitForPageLoad,Firefox 61.0,,2018-09-05 15:58:35,2018-09-05 15:58:35,"0,082s",PASSED
+click,Firefox 61.0,,2018-09-05 15:58:35,2018-09-05 15:59:01,"26,671s",FAILED

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Gmail testing" time="19" tests="1" failures="0" errors="0">
+   <testsuite name="Gmail testing" tests="1" failures="0" errors="0" time="19" timestamp="2018-09-05 15:50:54" hostname="Andrey - DESKTOP-QBDEEEG" id="Test Suites/Gmail testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrey\\git\\KatalonStudioProject1\\Reports\\Gmail testing\\20180905_155051"/>
+         <property name="logFiles" value="C:\\Users\\Andrey\\git\\KatalonStudioProject1\\Reports\\Gmail testing\\20180905_155051\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrey - DESKTOP-QBDEEEG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.1.42"/>
+         <property name="sessionId" value="de3865cb-3b20-4fa5-b21e-690cc795a5ec"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Send email" classname="Test Cases/Send email" status="PASSED">
+         <system-out><![CDATA[2018-09-05 15:50:54 - [TEST_CASE][PASSED] - Test Cases/Send email: Test Cases/Send email
+
+2018-09-05 15:50:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-05 15:51:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-05 15:51:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2018-09-05 15:51:03 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2018-09-05 15:51:03 - [TEST_STEP][PASSED] - setText: Text 'adresant.test@gmail.com' is set on object 'Object Repository/send email/Page_Gmail/input_identifier'
+
+2018-09-05 15:51:04 - [MESSAGE][PASSED] - Text 'adresant.test@gmail.com' is set on object 'Object Repository/send email/Page_Gmail/input_identifier'
+
+2018-09-05 15:51:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/send email/Page_Gmail/span_' is clicked on
+
+2018-09-05 15:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/send email/Page_Gmail/span_' is clicked on
+
+2018-09-05 15:51:04 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/send email/Password/input_password' is clickable
+
+2018-09-05 15:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/send email/Password/input_password' is clickable
+
+2018-09-05 15:51:05 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/send email/Password/input_password' is hovered
+
+2018-09-05 15:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/send email/Password/input_password' is hovered
+
+2018-09-05 15:51:05 - [TEST_STEP][PASSED] - setText: Text 'adresant2018' is set on object 'Object Repository/send email/Password/input_password'
+
+2018-09-05 15:51:05 - [MESSAGE][PASSED] - Text 'adresant2018' is set on object 'Object Repository/send email/Password/input_password'
+
+2018-09-05 15:51:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/send email/Password/input_password'
+
+2018-09-05 15:51:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/send email/Password/input_password'
+
+2018-09-05 15:51:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-05 15:51:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-05 15:51:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/div_' is clicked on
+
+2018-09-05 15:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/div_' is clicked on
+
+2018-09-05 15:51:10 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/textarea_to' is clickable
+
+2018-09-05 15:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/textarea_to' is clickable
+
+2018-09-05 15:51:11 - [TEST_STEP][PASSED] - setText: Text 'adresat.test@gmail.com' is set on object 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/textarea_to'
+
+2018-09-05 15:51:12 - [MESSAGE][PASSED] - Text 'adresat.test@gmail.com' is set on object 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/textarea_to'
+
+2018-09-05 15:51:12 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/textarea_to'
+
+2018-09-05 15:51:12 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/textarea_to'
+
+2018-09-05 15:51:12 - [TEST_STEP][PASSED] - setText: Text 'some jubject' is set on object 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/input_subjectbox'
+
+2018-09-05 15:51:12 - [MESSAGE][PASSED] - Text 'some jubject' is set on object 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/input_subjectbox'
+
+2018-09-05 15:51:12 - [TEST_STEP][PASSED] - setText: Text 'some text' is set on object 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/div_messageText'
+
+2018-09-05 15:51:12 - [MESSAGE][PASSED] - Text 'some text' is set on object 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/div_messageText'
+
+2018-09-05 15:51:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/Send' is clicked on
+
+2018-09-05 15:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/send email/Page_ - adresant.testgmail.com - Gm/Send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 15:50:54 - [TEST_SUITE][PASSED] - Gmail testing: Test Cases/Send email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
